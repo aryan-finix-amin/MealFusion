@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Item = ({name, quantity, category}) => {
+export default function item({name, quantity, category}) {
     return (
         <li className="flex p-4 bg-purple-100 shadow-md rounded-lg my-2">
             <div className="flex flex-col">
@@ -10,6 +10,4 @@ const Item = ({name, quantity, category}) => {
             </div>
         </li>
     );
-};
-
-export default Item;
+}
