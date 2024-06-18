@@ -19,6 +19,9 @@ export default function Home() {
           <li className="text-2xl ml-10 hover:text-blue-700 hover:underline font-normal">
             <Link href="/week-5">Week-5 Assignment</Link>
           </li>
+          <li className="text-2xl ml-10 hover:text-blue-700 hover:underline font-normal">
+            <Link href="/week-6">Week-6 Assignment</Link>
+          </li>
         </ul>
       </div>
     </main>
